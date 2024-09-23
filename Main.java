@@ -112,6 +112,7 @@ public class Main {
 
       // find the number of nodes in tree 1 having a data value > 20, should be 5
       if ( tree1.nodesGT(20) != 5 ) {
+          System.out.println(tree1.nodesGT(20));
           System.out.println("Failure (4): nodesGT method failed testing!");
           errorFlag = true;
       }
